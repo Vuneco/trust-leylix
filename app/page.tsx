@@ -56,6 +56,25 @@ export default function Home() {
 
             </div>
           </div>
+          <div className="heroVisual">
+
+  <div className="phone phoneMain">
+    <img src="/images/leylix/homescreen.png" alt="Leylix Homescreen" />
+  </div>
+
+  <div className="phone phoneLeft">
+    <img src="/images/leylix/events-on-map.png" alt="Leylix Map" />
+  </div>
+
+  <div className="phone phoneRight">
+    <img src="/images/leylix/event-detail.png" alt="Leylix Event" />
+  </div>
+
+  <div className="phone phoneBottom">
+    <img src="/images/leylix/ticket.png" alt="Leylix Ticket" />
+  </div>
+
+</div>
         </section>
 
         <ScrollReveal>
