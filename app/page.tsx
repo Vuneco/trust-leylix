@@ -1,65 +1,209 @@
-import Image from "next/image";
-
+import ScrollReveal from "./ScrollReveal";
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <>
+      <header className="navbar">
+        <div className="logo">Leylix Trust</div>
+
+        <nav>
+          <a href="#problem">Problem</a>
+          <a href="#solution">Lösung</a>
+          <a href="#verified">Verifizierung</a>
+          <a href="#faq">FAQ</a>
+          <a className="navButton" href="https://leylix.com">
+            Zur Leylix Webseite
+          </a>
+        </nav>
+      </header>
+
+      <main>
+        <section className="hero">
+          <div className="orb orb1"></div>
+<div className="orb orb2"></div>
+<div className="orb orb3"></div>
+          <div className="brandLabel">Leylix</div>
+
+          <div className="heroContent">
+            <p className="eyebrow">Europäische Plattform für echte Begegnungen</p>
+
+            <h1>Mehr echte Menschen. Weniger Fake-Accounts.</h1>
+
+            <p className="heroText">
+              Leylix verbindet echte Menschen, Events, Locations und Communities.
+              Mit verifizierten Nutzern schafft Leylix mehr Sicherheit, Vertrauen
+              und echte Begegnungen.
+            </p>
+
+            <div className="heroActions">
+              <a className="primaryButton" href="https://leylix.com">
+                Leylix entdecken
+              </a>
+              <a className="secondaryButton" href="#verified">
+                Mehr erfahren
+              </a>
+
+              <a className="secondaryButton" href="/verified-users">
+  Verifizierte Nutzer
+</a>
+
+<a className="secondaryButton" href="/fake-accounts">
+  Fake-Accounts
+</a>
+
+<a className="secondaryButton" href="/european-platform">
+  Europäische Plattform
+</a>
+
+            </div>
+          </div>
+        </section>
+
+        <ScrollReveal>
+  <section id="problem" className="section">
+          <p className="sectionLabel">Das Problem</p>
+          <h2>Das Internet verliert Vertrauen.</h2>
+          <p>
+            Viele Plattformen kämpfen mit Fake-Accounts, anonymen Profilen, Spam,
+            Bots und unsicheren Interaktionen. Leylix setzt auf echte Menschen,
+            klare Identitäten und sichere Begegnungen.
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
+
+          <div className="cards">
+            <div className="card">
+              <h3>Fake-Accounts</h3>
+              <p>Unklare Identitäten schwächen Vertrauen und echte Begegnungen.</p>
+            </div>
+
+            <div className="card">
+              <h3>Bots & Spam</h3>
+              <p>Automatisierte Profile zerstören die Qualität digitaler Communities.</p>
+            </div>
+
+            <div className="card">
+              <h3>Unsichere Events</h3>
+              <p>Events brauchen echte Teilnehmer, klare Abläufe und Vertrauen.</p>
+            </div>
+          </div>
+        </section>
+        </ScrollReveal>
+
+        <ScrollReveal>
+  <section id="solution" className="section darkSection">
+          <p className="sectionLabel">Die Lösung</p>
+          <h2>Leylix bringt Vertrauen zurück.</h2>
+          <p>
+            Leylix ist eine europäische Plattform für echte Events, verifizierte
+            Nutzer, sichere Communities, Locations, Tickets und Sponsoring.
+          </p>
+
+          <div className="featureGrid">
+            <div>Verifizierte Nutzer</div>
+            <div>Regionale Events</div>
+            <div>Sichere Communities</div>
+            <div>Event-Tickets</div>
+            <div>Locations</div>
+            <div>Sponsoring</div>
+          </div>
+        </section>
+        </ScrollReveal>
+
+        <ScrollReveal>
+  <section id="verified" className="section">
+          <p className="sectionLabel">Verifizierung</p>
+          <h2>Warum echte Nutzer wichtig sind.</h2>
+          <p>
+            Durch verifizierte Nutzer können Veranstalter, Teilnehmer, Locations
+            und Unternehmen sicherer miteinander interagieren. Leylix reduziert
+            Missbrauch und stärkt echte Begegnungen.
+          </p>
+        </section>
+        </ScrollReveal>
+
+        <ScrollReveal>
+  <section className="section">
+          <p className="sectionLabel">Europa</p>
+          <h2>Europäisch gedacht. Regional erlebbar.</h2>
+          <p>
+            Leylix zeigt Events basierend auf der Nähe der Nutzer. So entstehen
+            echte Communities dort, wo Menschen wirklich leben.
+          </p>
+        </section>
+        </ScrollReveal>
+
+        <ScrollReveal>
+  <section id="faq" className="section faq">
+          <p className="sectionLabel">FAQ</p>
+          <h2>Häufige Fragen</h2>
+
+          <details>
+            <summary>Was ist Leylix?</summary>
+            <p>
+              Leylix ist eine Plattform für Events, Locations, Tickets,
+              Sponsoring und echte Communities.
+            </p>
+          </details>
+
+          <details>
+            <summary>Warum setzt Leylix auf verifizierte Nutzer?</summary>
+            <p>
+              Damit echte Menschen miteinander interagieren und Fake-Accounts,
+              Bots und Missbrauch reduziert werden.
+            </p>
+          </details>
+
+          <details>
+            <summary>Ist Leylix ein WhatsApp-Ersatz?</summary>
+            <p>
+              Nein. Leylix ist keine Kopie eines Messengers. Leylix ist eine
+              Plattform für echte Begegnungen, Events und verifizierte Communities.
+            </p>
+          </details>
+        </section>
+        </ScrollReveal>
+
+        <section className="ctaSection">
+          <div className="brandLabel">Leylix</div>
+          <h2>Werde Teil echter Communities.</h2>
+          <p>
+            Entdecke Leylix und erlebe Events mit mehr Vertrauen, Sicherheit und
+            echten Menschen.
+          </p>
+          <a className="primaryButton" href="https://leylix.com">
+            Zur Leylix Webseite
           </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+        </section>
       </main>
+
+      <footer className="footer">
+  <div className="footerGrid">
+
+    <div>
+      <h3>Leylix Trust</h3>
+      <p>
+        Mehr echte Menschen. Weniger Fake-Accounts.
+      </p>
     </div>
+
+    <div>
+      <h4>SEO Seiten</h4>
+
+      <a href="/verified-users">Verifizierte Nutzer</a>
+      <a href="/fake-accounts">Fake-Accounts</a>
+      <a href="/european-platform">Europäische Plattform</a>
+    </div>
+
+    <div>
+      <h4>Plattform</h4>
+
+      <a href="https://leylix.com">Leylix Webseite</a>
+    </div>
+
+  </div>
+
+  <p className="footerBottom">
+    © Leylix – Echte Menschen. Sichere Events. Verifizierte Communities.
+  </p>
+</footer>
+    </>
   );
 }
