@@ -532,3 +532,140 @@ footer {
     padding: 24px;
   }
 }
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.heroVisual {
+  position: relative;
+  width: 650px;
+  height: 720px;
+  flex-shrink: 0;
+}
+
+.phone {
+  position: absolute;
+  border-radius: 42px;
+  overflow: hidden;
+
+  background: rgba(255,255,255,0.08);
+
+  border: 1px solid rgba(255,255,255,0.18);
+
+  box-shadow:
+    0 30px 80px rgba(0,0,0,0.28),
+    0 0 80px rgba(107,44,255,0.16);
+
+  backdrop-filter: blur(20px);
+
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.4s ease;
+
+  animation: floatingPhone 7s ease-in-out infinite;
+}
+
+.phone img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.phone:hover {
+  transform: translateY(-10px) scale(1.02);
+}
+
+.phoneMain {
+  width: 290px;
+  height: 620px;
+
+  left: 180px;
+  top: 40px;
+
+  z-index: 4;
+}
+
+.phoneLeft {
+  width: 220px;
+  height: 470px;
+
+  left: 20px;
+  top: 120px;
+
+  transform: rotate(-12deg);
+
+  z-index: 2;
+
+  animation-delay: 1s;
+}
+
+.phoneRight {
+  width: 220px;
+  height: 470px;
+
+  right: 0;
+  top: 80px;
+
+  transform: rotate(10deg);
+
+  z-index: 2;
+
+  animation-delay: 2s;
+}
+
+.phoneBottom {
+  width: 240px;
+  height: 500px;
+
+  left: 120px;
+  bottom: 0;
+
+  transform: rotate(-6deg);
+
+  z-index: 1;
+
+  animation-delay: 3s;
+}
+
+@keyframes floatingPhone {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-16px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .heroVisual {
+    width: 100%;
+    height: 680px;
+    margin-top: 40px;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  .heroVisual {
+    transform: scale(0.72);
+    transform-origin: top center;
+
+    height: 520px;
+  }
+
+}
