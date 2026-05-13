@@ -232,18 +232,25 @@ export default function Home() {
     </div>
 
     <div>
-      <h4>SEO Seiten</h4>
+  <h4>SEO Seiten</h4>
 
-      <a href="/verified-users">Verifizierte Nutzer</a>
-      <a href="/fake-accounts">Fake-Accounts</a>
-      <a href="/european-platform">Europäische Plattform</a>
-    </div>
+  <a href="/verified-users">Verifizierte Nutzer</a>
+  <a href="/fake-accounts">Fake-Accounts</a>
+  <a href="/european-platform">Europäische Plattform</a>
+</div>
 
-    <div>
-      <h4>Plattform</h4>
+<div>
+  <h4>Rechtliches</h4>
 
-      <a href="https://leylix.com">Leylix Webseite</a>
-    </div>
+  <a href="/impressum">Impressum</a>
+  <a href="/datenschutz">Datenschutz</a>
+</div>
+
+<div>
+  <h4>Plattform</h4>
+
+  <a href="https://leylix.com">Leylix Webseite</a>
+</div>
 
   </div>
 
