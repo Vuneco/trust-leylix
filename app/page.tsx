@@ -1,5 +1,6 @@
 import ScrollReveal from "./ScrollReveal";
 import ExperiencePreview from "./ExperiencePreview";
+
 export default function Home() {
   return (
     <>

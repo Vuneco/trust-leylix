@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import SmoothScroll from "./SmoothScroll";
+import CookieBanner from "./CookieBanner";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://trust.leylix.com"),
@@ -80,6 +81,7 @@ export default function RootLayout({
     <html lang="de">
   <body>
     <SmoothScroll>{children}</SmoothScroll>
+    <CookieBanner />
   </body>
 </html>
   );
