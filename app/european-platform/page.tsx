@@ -69,6 +69,45 @@ export default function EuropeanPlatformPage() {
         </p>
       </section>
 
+      <section className="seoTextBlock">
+        <h2>Regionale Events und echte Communities</h2>
+        <p>
+          Leylix zeigt Veranstaltungen basierend auf dem Standort der Nutzer.
+          Dadurch entstehen regionale Communities, echte Begegnungen und lokale
+          Events dort, wo Menschen tatsächlich leben und sich treffen.
+        </p>
+      </section>
+
+      <section className="seoTextBlock">
+        <h2>Vereine und regionale Organisationen</h2>
+        <p>
+          Auch Vereine und regionale Organisationen profitieren von einer
+          europäischen Plattform. Sportvereine, Kulturvereine, Musikvereine
+          und gemeinnützige Projekte können sichtbarer werden, neue Mitglieder
+          gewinnen und einfacher regionale Sponsoren erreichen.
+        </p>
+      </section>
+
+      <section className="seoTextBlock">
+        <h2>Service-Anbieter und Event-Wirtschaft</h2>
+        <p>
+          Leylix verbindet nicht nur Teilnehmer und Veranstalter. Auch
+          Catering, Security, Speaker, DJs, Fotografen, Shuttle-Service,
+          Technikverleih, Bühnenbau und weitere Event-Service-Anbieter können
+          ihre Leistungen sichtbar machen und neue Kooperationen aufbauen.
+        </p>
+      </section>
+
+      <section className="seoTextBlock">
+        <h2>Europäische Plattform mit Fokus auf Vertrauen</h2>
+        <p>
+          Leylix verfolgt einen europäischen Ansatz mit Fokus auf Vertrauen,
+          echte Menschen, sichere Communities und regionale Nähe. Ziel ist eine
+          Plattform, auf der digitale Interaktionen wieder persönlicher,
+          transparenter und vertrauensvoller werden.
+        </p>
+      </section>
+
       <div className="seoCta">
         <a href="https://leylix.com" className="primaryButton">
           Zur Leylix Webseite
