@@ -35,6 +35,20 @@ export default function Home() {
               und echte Begegnungen.
             </p>
 
+            <div className="heroStatement">
+  <p>
+    Auf anderen Plattformen sucht jeder einzeln.
+    <br />
+    <strong>Auf Leylix findet man sich.</strong>
+  </p>
+
+  <span>
+    Menschen, Communities, Vereine, Sponsoren,
+    Locations und Service-Anbieter
+    in einem gemeinsamen Event-Ökosystem.
+  </span>
+</div>
+
             <div className="heroActions">
               <a className="primaryButton" href="https://leylix.com">
                 Leylix entdecken
