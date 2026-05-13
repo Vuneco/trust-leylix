@@ -30,7 +30,9 @@ export default function CookieBanner() {
       <div className="cookieBox">
         <div className="cookieGlow"></div>
 
-        <div className="cookieIcon">✦</div>
+        <div className="cookieBear">
+  🐻🍪
+</div>
 
         <div className="cookieContent">
           <p className="cookieLabel">Datenschutz & Cookies</p>
