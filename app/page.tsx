@@ -1,4 +1,5 @@
 import ScrollReveal from "./ScrollReveal";
+import ExperiencePreview from "./ExperiencePreview";
 export default function Home() {
   return (
     <>
@@ -115,83 +116,7 @@ export default function Home() {
               in einem gemeinsamen Event-Ökosystem.
             </p>
 
-            <div className="experienceGrid">
-              <article className="experienceCard">
-                <div className="experienceText">
-                  <span>01</span>
-                  <h3>Events entdecken</h3>
-                  <p>
-                    Nutzer finden regionale Events, Workshops, Vereinsangebote und
-                    besondere Erlebnisse direkt in ihrer Umgebung.
-                  </p>
-                </div>
-                <div className="experiencePreview">
-                  <img src="/images/leylix/homescreen.PNG" alt="Leylix Events entdecken" />
-                </div>
-              </article>
-
-              <article className="experienceCard">
-                <div className="experienceText">
-                  <span>02</span>
-                  <h3>Eventerstellung</h3>
-                  <p>
-                    Veranstalter können Events erstellen, Tickets anbieten,
-                    Teilnehmer erreichen und ihre Veranstaltung professionell
-                    sichtbar machen.
-                  </p>
-                </div>
-                <div className="experiencePreview">
-                  <img src="/images/leylix/event-detail.PNG" alt="Leylix Eventerstellung" />
-                </div>
-              </article>
-
-              <article className="experienceCard">
-                <div className="experienceText">
-                  <span>03</span>
-                  <h3>Vereine & Mitglieder</h3>
-                  <p>
-                    Vereine können neue Mitglieder gewinnen, Veranstaltungen
-                    bewerben, regionale Aufmerksamkeit aufbauen und passende
-                    Sponsoren finden.
-                  </p>
-                </div>
-                <div className="experiencePreview">
-                  <img src="/images/leylix/news.PNG" alt="Leylix für Vereine" />
-                </div>
-              </article>
-
-              <article className="experienceCard">
-                <div className="experienceText">
-                  <span>04</span>
-                  <h3>Sponsoren finden</h3>
-                  <p>
-                    Unternehmen können Events, Vereine und regionale Projekte
-                    gezielt unterstützen und dort sichtbar werden, wo echte Menschen
-                    zusammenkommen.
-                  </p>
-                </div>
-                <div className="experiencePreview">
-                  <img src="/images/leylix/ticket-category.PNG" alt="Leylix Sponsoring" />
-                </div>
-              </article>
-
-              <article className="experienceCard wideCard">
-                <div className="experienceText">
-                  <span>05</span>
-                  <h3>Service-Anbieter</h3>
-                  <p>
-                    Auch Event-Service-Anbieter können ihre Leistungen auf Leylix
-                    sichtbar machen: Catering, Security, Speaker, DJs, Fotografen,
-                    Videografen, Shuttle-Service, Technikverleih, Bühnenbau,
-                    Dekoration, Reinigung und Eventpersonal.
-                  </p>
-                </div>
-                <div className="experiencePreview doublePreview">
-                  <img src="/images/leylix/events-on-map.PNG" alt="Leylix Service-Anbieter Übersicht" />
-                  <img src="/images/leylix/ticket.PNG" alt="Leylix Ticket und Event-Service" />
-                </div>
-              </article>
-            </div>
+            <ExperiencePreview />
           </section>
         </ScrollReveal>
 
