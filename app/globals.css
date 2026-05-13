@@ -553,9 +553,15 @@ footer {
   border-radius: 42px;
   background: #111;
   padding: 10px;
+
+  will-change: transform;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+
   box-shadow:
     0 35px 90px rgba(0,0,0,0.28),
     0 0 80px rgba(107,44,255,0.18);
+
   animation: floatingPhone 7s ease-in-out infinite;
 }
 
@@ -621,12 +627,16 @@ footer {
 }
 
 @keyframes floatingPhone {
-  0%, 100% {
-    margin-top: 0;
+  0% {
+    translate: 0 0;
   }
 
   50% {
-    margin-top: -18px;
+    translate: 0 -14px;
+  }
+
+  100% {
+    translate: 0 0;
   }
 }
 
