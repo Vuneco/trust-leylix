@@ -659,3 +659,133 @@ footer {
     height: 500px;
   }
 }
+.experienceSection {
+  background:
+    radial-gradient(circle at top right, rgba(107, 44, 255, 0.12), transparent 35%),
+    linear-gradient(180deg, #ffffff, #f7f4ff);
+}
+
+.experienceGrid {
+  margin-top: 44px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.experienceCard {
+  position: relative;
+  min-height: 340px;
+  padding: 30px;
+  border-radius: 34px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  gap: 24px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(107, 44, 255, 0.14);
+  box-shadow: 0 28px 70px rgba(107, 44, 255, 0.12);
+}
+
+.experienceText {
+  position: relative;
+  z-index: 2;
+}
+
+.experienceText span {
+  display: inline-flex;
+  margin-bottom: 14px;
+  color: #6b2cff;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.experienceText h3 {
+  font-size: 28px;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+.experienceText p {
+  font-size: 17px;
+  line-height: 1.7;
+  color: #453b55;
+}
+
+.experiencePreview {
+  position: relative;
+  height: 260px;
+  border-radius: 30px;
+  overflow: hidden;
+  background: #12101a;
+  box-shadow: 0 24px 55px rgba(0,0,0,0.22);
+}
+
+.experiencePreview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+}
+
+.doublePreview {
+  display: flex;
+  gap: 12px;
+  background: transparent;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.doublePreview img {
+  width: 50%;
+  height: 260px;
+  border-radius: 26px;
+  object-fit: cover;
+  object-position: top center;
+  box-shadow: 0 24px 55px rgba(0,0,0,0.22);
+}
+
+.wideCard {
+  grid-column: 1 / -1;
+  grid-template-columns: 1.2fr 420px;
+}
+
+@media (max-width: 1000px) {
+  .experienceGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .experienceCard,
+  .wideCard {
+    grid-template-columns: 1fr;
+  }
+
+  .experiencePreview {
+    height: 320px;
+  }
+
+  .wideCard {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .experienceCard {
+    padding: 22px;
+    border-radius: 26px;
+  }
+
+  .experiencePreview,
+  .doublePreview img {
+    height: 240px;
+  }
+
+  .doublePreview {
+    flex-direction: column;
+  }
+
+  .doublePreview img {
+    width: 100%;
+  }
+}
