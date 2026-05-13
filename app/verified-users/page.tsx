@@ -67,6 +67,35 @@ export default function VerifiedUsersPage() {
         </p>
       </section>
 
+            <section className="seoTextBlock">
+        <h2>Vereine und regionale Communities</h2>
+        <p>
+          Auch Vereine profitieren von verifizierten Nutzern und sicheren Communities.
+          Sportvereine, Kulturvereine, Musikvereine und regionale Organisationen
+          können über Leylix neue Mitglieder gewinnen, Veranstaltungen sichtbarer
+          machen und vertrauensvollere Communities aufbauen.
+        </p>
+      </section>
+
+      <section className="seoTextBlock">
+        <h2>Sicherheit für Sponsoring und Kooperationen</h2>
+        <p>
+          Unternehmen und Sponsoren möchten wissen, mit wem sie zusammenarbeiten.
+          Verifizierte Nutzer und klarere Identitäten schaffen mehr Vertrauen
+          zwischen Veranstaltern, Vereinen, Sponsoren und regionalen Partnern.
+        </p>
+      </section>
+
+      <section className="seoTextBlock">
+        <h2>Mehr Sicherheit für Service-Anbieter</h2>
+        <p>
+          Auch Event-Service-Anbieter profitieren von sicheren Communities.
+          Catering, Security, Fotografen, Videografen, Speaker, DJs, Shuttle-Service
+          und Technik-Anbieter können sich professioneller präsentieren und einfacher
+          mit Veranstaltern und Communities vernetzen.
+        </p>
+      </section>
+
       <div className="seoCta">
         <a href="https://leylix.com" className="primaryButton">
           Zur Leylix Plattform
