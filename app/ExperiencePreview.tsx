@@ -33,7 +33,7 @@ export default function ExperiencePreview() {
 
   return (
     <>
-      <div className="experienceGrid">
+      <div className="experienceGrid" style={{ position: "relative", zIndex: 2 }}>
         {previews.map((preview, index) => (
           <article
             key={index}
@@ -55,9 +55,10 @@ export default function ExperiencePreview() {
 
       {activePreview !== null && (
         <div
-          className="previewModal"
-          onClick={() => setActivePreview(null)}
-        >
+  className="previewModal"
+  style={{ position: "fixed" }}
+  onClick={() => setActivePreview(null)}
+>
           <div
             className="previewPhone"
             onClick={(e) => e.stopPropagation()}
