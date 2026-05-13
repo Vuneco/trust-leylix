@@ -64,6 +64,36 @@ export default function FakeAccountsPage() {
         </p>
       </section>
 
+            <section className="seoTextBlock">
+        <h2>Fake-Accounts gefährden Communities</h2>
+        <p>
+          Fake-Profile, Bots und Spam können Communities massiv schaden.
+          Veranstaltungen verlieren Vertrauen, echte Nutzer werden vorsichtiger
+          und digitale Interaktionen wirken zunehmend unsicher. Leylix setzt
+          deshalb auf stärkere Verifizierung und echte Begegnungen.
+        </p>
+      </section>
+
+      <section className="seoTextBlock">
+        <h2>Schutz vor unseriösen Event-Profilen</h2>
+        <p>
+          Veranstalter, Vereine, Locations und Teilnehmer benötigen sichere
+          Strukturen. Gefälschte Event-Profile, Spam-Events oder unseriöse
+          Accounts können Communities und regionale Veranstaltungen negativ
+          beeinflussen. Leylix möchte echte Menschen stärker in den Mittelpunkt stellen.
+        </p>
+      </section>
+
+      <section className="seoTextBlock">
+        <h2>Sicherheit für Sponsoren und Service-Anbieter</h2>
+        <p>
+          Auch Sponsoren und Event-Service-Anbieter profitieren von sicheren
+          Communities. Catering, Security, Fotografen, Shuttle-Service,
+          Technik-Anbieter und andere Partner möchten wissen, mit wem sie
+          zusammenarbeiten. Verifizierte Nutzer schaffen mehr Vertrauen.
+        </p>
+      </section>
+
       <div className="seoCta">
         <a href="https://leylix.com" className="primaryButton">
           Leylix entdecken
