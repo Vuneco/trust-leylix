@@ -21,5 +21,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://trust.leylix.com/european-platform",
       lastModified: new Date(),
     },
+
+    {
+      url: "https://trust.leylix.com/impressum",
+      lastModified: new Date(),
+    },
+
+    {
+      url: "https://trust.leylix.com/datenschutz",
+      lastModified: new Date(),
+    },
   ];
 }
