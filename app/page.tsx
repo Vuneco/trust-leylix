@@ -1,3 +1,9 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "https://trust.leylix.com/" },
+};
+
 import ScrollReveal from "./ScrollReveal";
 import ExperiencePreview from "./ExperiencePreview";
 
