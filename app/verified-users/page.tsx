@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://trust.leylix.com/verified-users" },
   title: "Verifizierte Nutzer – Mehr Sicherheit mit Leylix",
   description:
     "Warum verifizierte Nutzer für sichere Communities, echte Begegnungen und vertrauensvolle Events wichtig sind.",
