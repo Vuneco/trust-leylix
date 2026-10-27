@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://trust.leylix.com/fake-accounts" },
   title: "Fake-Accounts vermeiden – Leylix setzt auf echte Menschen",
   description:
     "Leylix reduziert Fake-Accounts, Bots und Spam durch verifizierte Nutzer und schafft mehr Vertrauen für Events und Communities.",
