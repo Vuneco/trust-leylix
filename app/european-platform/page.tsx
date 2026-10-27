@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://trust.leylix.com/european-platform" },
   title: "Europäische Event-Plattform – Leylix Trust",
   description:
     "Leylix ist eine europäische Plattform für echte Events, verifizierte Nutzer, sichere Communities und regionale Begegnungen.",
