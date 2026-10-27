@@ -48,9 +48,6 @@ export const metadata: Metadata = {
     follow: true,
   },
 
-  alternates: {
-    canonical: "https://trust.leylix.com",
-  },
 
   openGraph: {
   title: "Leylix Trust – Echte Menschen. Sichere Events.",
